@@ -1,4 +1,4 @@
-# merakiLogPuller
+# merakiLogFetcher
 Obtains Meraki Event Logs for a list of networks and product types and exports them to CSV files
 
 How to Use:
