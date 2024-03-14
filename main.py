@@ -15,7 +15,7 @@ nets = dashboard.organizations.getOrganizationNetworks(org_id)
 
 if config.startingAfter == "":
     now = datetime.now()
-    startingAfter = (now - timedelta(days=config.days_lookback)).strftime("%Y-%m-%dT%H:%M:%S")
+    startingAfter = (now - timedelta(days=config.daysLookback)).strftime("%Y-%m-%dT%H:%M:%S")
 else:
     startingAfter = config.startingAfter
 
