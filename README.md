@@ -1,5 +1,5 @@
 # merakiLogPuller
-Obtains Meraki Event Log for a list of networks and product types and exports them to CSV files
+Obtains Meraki Event Logs for a list of networks and product types and exports them to CSV files
 
 How to Use:
 1. Edit config.py as follows
