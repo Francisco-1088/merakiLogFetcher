@@ -9,5 +9,5 @@ net_names = ['NET-NAME-1', 'NET-NAME-2']
 # Log settings
 productType = ["switch", "wireless"]
 startingAfter = "2024-01-01T00:00:00"
-days_lookback = 30 # Used only if startingAfter is set to ""
+daysLookback = 30 # Used only if startingAfter is set to ""
 
